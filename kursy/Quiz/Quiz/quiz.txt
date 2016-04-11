@@ -1,0 +1,18 @@
+Jakieœ pytanie (porawna odp C)
+odp nr 1
+odp nr 2
+odp nr 3
+odp nr 4
+c
+Pytanie odp D
+odp nr 1
+odp nr 2
+odp nr 3
+odp nr 4
+d
+Pytanie odp A
+odp nr 1
+odp nr 2
+odp nr 3
+odp nr 4
+a

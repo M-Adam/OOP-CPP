@@ -1,0 +1,20 @@
+Stwórz klasê CMiejscowosc z prywatnym statycznym polem liczbaLudzi (zainicjuj je zerem). Utwórz dla niej statyczn¹ publiczn¹ metodê dodajCzlowieka() (bez parametrow), która zwiêksza ten licznik o jeden. Napisz te¿ metodê wyswietl() (bez parametrów), która wyœwietla na ekran napis:
+- „Wiocha”, gdy liczba ludzi jest z przedzia³u <0,10>
+- „Mieœcinka”, gdy liczba ludzi jest z przedzia³u (10,100>
+- „Miejscowosc”, gdy liczba ludzi jest z przedzia³u (100,1000>
+- „Miasto”, gdy liczba ludzi jest z przedzia³u (1000,...>
+
+Stwórz klasê CCzlowiek, która zawiera:
+- chronione pole waga typu ca³kowitego,
+- publiczny akcesor (getter) odczytuj¹cy pole waga,
+- publiczny konstruktor jednoparametrowy inicjuj¹cy wagê – je¿eli waga jest wiêksza od 99, to mamy j¹ ustawiæ w³aœnie na 99, je¿eli mniejsza od 1 to na wartoœæ 1. Dodatkowo ma zwiêkszaæ liczbê ludzi w klasie CMiejscowosc.
+
+Stwórz klasê CUfok, która:
+- dziedziczy publicznie po klasie CCzlowiek,
+- zawiera prywatne pole zielonosc,
+- zawiera publiczny akcesor (getter) odczytuj¹cy pole zielonosc,
+- zawiera publiczny konstruktor dwu-parametrowy inicjuj¹cy wagê i zielonoœæ (parametr wagi ma byæ przekazany do zainicjowania konstruktorowi klasy nadrzêdnej).
+
+W funkcji main stwórz automatyczn¹ tablicê 100 wskaŸników na CCzlowiek. W pêtli pod ka¿d¹ komórkê utwórz dynamiczny obiekt tego typu inicjuj¹c go losow¹ wag¹ (funkcja rand()). Pobierz od u¿ytkownika liczbê ca³kowit¹ waga_progowa, a nastêpnie zlicz i wyœwietl liczbê ludzi, z wag¹ wiêksz¹ od waga_progowa.
+Dodatkowo stwórz automatyczn¹, 200 elementow¹ tablicê wskaŸników na CUfok nape³nij dynamicznie stworzonymi obiektami (podobnie jak wy¿ej). Parametrami konstruktorów maj¹ byæ losowe liczby. Nastêpnie wyœwietl na ekran tekst informuj¹cy na jaki rodzaj miejscowoœci obecnie siê klasyfikujemy (metoda klasy CMiejscowosc).
+Na koniec usuñ obiekty.
